@@ -1,0 +1,54 @@
+{
+    "mainPage":
+    {
+        "brandTitle": "div[class='brand-title'] span[class='mat-button-wrapper']",
+        "loginBtn": ".mat-focus-indicator.mat-button.mat-button-base.ng-star-inserted",
+        "searchBox": "input[placeholder='Search books or authors']",
+        "cartBtn": ".mat-icon.notranslate.mat-badge.mat-badge-warn.material-icons.mat-icon-no-color.mat-badge-overlap.mat-badge-above.mat-badge-after.mat-badge-medium",
+        "favBtn": "button[class='mat-focus-indicator mat-icon-button mat-button-base ng-star-inserted'] mat-icon[role='img']",
+        "profileDropdown": ".mat-focus-indicator.mat-menu-trigger.mat-button.mat-button-base.ng-star-inserted",
+        "myOrders": "//button[normalize-space()='My Orders']",
+        "logout": "//button[normalize-space()='Logout']",
+        "_comment1": "--UNTUK CHECKOUTS OBJECTS--",
+        "hp2": "body > app-root:nth-child(1) > div:nth-child(2) > app-home:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > app-book-card:nth-child(1) > mat-card:nth-child(1) > mat-card-content:nth-child(2) > app-addtocart:nth-child(3) > button:nth-child(1)",
+        "hp3": "body > app-root:nth-child(1) > div:nth-child(2) > app-home:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > app-book-card:nth-child(1) > mat-card:nth-child(1) > mat-card-content:nth-child(2) > app-addtocart:nth-child(3) > button:nth-child(1)",
+        "hp4": "body > app-root:nth-child(1) > div:nth-child(2) > app-home:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > app-book-card:nth-child(1) > mat-card:nth-child(1) > mat-card-content:nth-child(2) > app-addtocart:nth-child(3) > button:nth-child(1)",
+        "badgeCart": "#mat-badge-content-0",
+        "badgeFav": "#mat-badge-content-1",
+        "successAddCart": "simple-snack-bar.mat-simple-snackbar.ng-star-inserted"
+    },
+
+    "loginPage":
+    {
+        "loginTitle": "div[class='docs-example-viewer-title-spacer'] h3",
+        "registerBtn": ".mat-focus-indicator.mat-elevation-z4.mat-raised-button.mat-button-base",
+        "usernameTxt": "#mat-input-0",
+        "passwordTxt": "#mat-input-1",
+        "loginBtn": ".mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary"
+    },
+
+    "registerPage":
+    {
+        "userRegTitle": "div[class='docs-example-viewer-title-spacer'] h3",
+        "firstName": "mat-input-element mat-form-field-autofill-control ng-tns-c50-1 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored",
+        "lastName": "mat-input-element mat-form-field-autofill-control ng-tns-c50-2 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored",
+        "userName": "mat-input-element mat-form-field-autofill-control ng-tns-c50-3 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored",
+        "password": "#mat-input-element mat-form-field-autofill-control ng-tns-c50-4 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored",
+        "confirmPass": "mat-input-element mat-form-field-autofill-control ng-tns-c50-5 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored",
+        "male": "label[for='mat-radio-2-input'] span[class='mat-radio-outer-circle']",
+        "female": "label[for='mat-radio-3-input'] span[class='mat-radio-outer-circle']",
+        "registerBtn": ".mat-focus-indicator.mat-raised-button.mat-button-base.mat-primary",
+        "_comment1": "--UNTUK VALIDASI OBJECTS--",
+        "firstNameReq": ".mat-form-field-subscript-wrapper.ng-tns-c50-1",
+        "lastNameReq": ".mat-form-field-subscript-wrapper.ng-tns-c50-2",
+        "userNameReq": ".mat-form-field-subscript-wrapper.ng-tns-c50-3",
+        "passReq": ".mat-form-field-subscript-wrapper.ng-tns-c50-4",
+        "passSpecReq": ".mat-form-field-subscript-wrapper.ng-tns-c50-4",
+        "passNotMatch": ".mat-form-field-subscript-wrapper.ng-tns-c50-5"
+    },
+
+    "checkoutPage":
+    {
+
+    }
+}
